@@ -2,7 +2,7 @@
 "
 " Junyu Wu, shibuyanorailgun@gmail.com, 2014.
 
-let mapleader = ","
+let g:mapleader = ","
 
 nnoremap <C-F>          :
 nnoremap <F5>           :w<CR>:make!<CR>
