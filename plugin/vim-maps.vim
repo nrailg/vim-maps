@@ -20,10 +20,11 @@ nnoremap <LEADER>h      :nohlsearch<CR>
 nnoremap <LEADER>cc     :cclose<CR>
 nnoremap <F2>           :NERDTreeToggle<CR>
 nnoremap <F3>           :TagbarToggle<CR>
-nnoremap <LEADER>ff     :FufFile<CR>
-nnoremap <LEADER>fb     :FufBookmark<CR>
-nnoremap <LEADER>fa     :FufAddBookmark<CR>
-nnoremap <LEADER>bf     :FufBuffer<CR>
+nnoremap <LEADER>f      :FufFile<CR>
+nnoremap <LEADER>b      :FufBuffer<CR>
+nnoremap <LEADER>1      :FufBookmark<CR>
+nnoremap <LEADER>2      :FufBookmarkFile<CR>
+nnoremap <LEADER>3      :FufBookmarkDir<CR>
 
 cnoremap <C-F>          <C-F>i
 cnoremap jk             <ESC>
