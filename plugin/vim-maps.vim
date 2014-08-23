@@ -25,7 +25,7 @@ nnoremap <F7>           :make! debug<CR>
 nnoremap <Leader>h      :nohlsearch<CR>
 nnoremap <Leader>cc     :cclose<CR>
 nnoremap <F2>           :NERDTreeToggle<CR>
-nnoremap <F3>           :TlistToggle<CR>
+nnoremap <F3>           :TagbarToggle<CR>
 nnoremap <Leader>f      :FufFile<CR>
 nnoremap <Leader>b      :FufBuffer<CR>
 nnoremap <Leader>1      :FufBookmarkFile<CR>
