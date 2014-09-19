@@ -2,15 +2,7 @@
 "
 " Junyu Wu, shibuyanorailgun@gmail.com, 2014.
 
-abbr      add           +
-abbr      div           /
-abbr      eq            ==
 abbr      gg            =
-abbr      gt            >
-abbr      lt            <
-abbr      mul           *
-abbr      ne            !=
-abbr      sub           -
 abbr      gmail         shibuyanorailgun@gmail.com
 abbr      wmail         junyu.wjy@alibaba-inc.com
 
@@ -35,9 +27,11 @@ inoremap jk             <Esc>
 inoremap <C-L>h         .
 inoremap <C-L>j         ->
 inoremap <C-L>k         *
-inoremap <C-L><C-L>     &
+inoremap <C-L>l         &
 inoremap <C-K>          _
 inoremap <C-F>          <C-X><C-F>
 inoremap <C-O>          <C-]>
 inoremap <C-]>          <C-X><C-O>
 inoremap <C-U>          <Esc>gUiw`]a
+inoremap <C-E>          <Esc><C-X><C-E>
+inoremap <C-Y>          <Esc><C-X><C-Y>
