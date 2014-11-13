@@ -4,7 +4,6 @@
 
 abbr      gg            =
 abbr      gmail         shibuyanorailgun@gmail.com
-abbr      wmail         junyu.wjy@alibaba-inc.com
 
 let g:mapleader = "m"
 
@@ -24,14 +23,11 @@ nnoremap <Leader>4      :FufBuffer<CR>
 cnoremap jk             <Esc>
 
 inoremap jk             <Esc>
+inoremap <C-F>          <C-X><C-F>
+inoremap <C-K>          _
 inoremap <C-L>h         .
 inoremap <C-L>j         ->
 inoremap <C-L>k         *
 inoremap <C-L>l         &
-inoremap <C-K>          _
-inoremap <C-F>          <C-X><C-F>
-inoremap <C-O>          <C-]>
-inoremap <C-]>          <C-X><C-O>
-inoremap <C-U>          <Esc>gUiw`]a
-inoremap <C-E>          <Esc><C-X><C-E>
-inoremap <C-Y>          <Esc><C-X><C-Y>
+inoremap <C-O>          <C-X><C-O>
+inoremap <C-Y>          <Esc>gUiw`]a
