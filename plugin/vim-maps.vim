@@ -4,7 +4,7 @@
 
 abbreviate gg		=
 
-let g:mapleader = "m"
+let g:mapleader = "t"
 
 nnoremap <C-F>		:
 nnoremap <F5>		:w<CR>:make!<CR>
@@ -15,7 +15,7 @@ nnoremap <F2>		:NERDTreeToggle<CR>
 nnoremap <F3>		:TagbarToggle<CR>
 nnoremap <LEADER>3	:FufFile<CR>
 nnoremap <LEADER>4	:FufBuffer<CR>
-nnoremap <C-]>		:YcmCompleter GoToDeclaration<CR>
+nnoremap <C-]>		:YcmCompleter GoTo<CR>
 
 inoremap <C-F>		<C-X><C-F>
 inoremap <C-K>		_
