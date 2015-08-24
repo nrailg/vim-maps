@@ -21,8 +21,9 @@ let g:Gtags_No_Auto_Jump = 1
 if exists('g:gtag_enter_win_cclose')
 	augroup enter_win_cclose
 		autocmd!
-		autocmd WinEnter *.[ch] cclose
-		autocmd WinEnter *.cpp cclose
+		autocmd WinEnter *.[chsS] cclose
+		autocmd WinEnter *.[ch]pp cclose
+		autocmd WinEnter *.[ch]xx cclose
 	augroup END
 endif
 
