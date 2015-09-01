@@ -15,7 +15,6 @@ nnoremap <F2>		:NERDTreeToggle<CR>
 nnoremap <F3>		:TagbarToggle<CR>
 nnoremap <LEADER>3	:FufFile<CR>
 nnoremap <LEADER>4	:FufBuffer<CR>
-nnoremap <C-]>		:YcmCompleter GoTo<CR>
 nnoremap t		m
 
 inoremap <C-F>		<C-X><C-F>
