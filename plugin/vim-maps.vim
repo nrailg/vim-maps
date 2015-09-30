@@ -22,7 +22,6 @@ inoremap <C-K>		_
 inoremap <C-L><C-J>	->
 inoremap <C-O>		<C-X><C-O>
 inoremap <C-U>		<Esc>gUiw`]a
-inoremap ,		, 
 inoremap <C-V><C-J>	[
 inoremap <C-V><C-K>	]
 inoremap <C-V><C-N>	{
