@@ -17,7 +17,7 @@ nnoremap <F5>		:wa<CR>:make!<CR>
 nnoremap <F6>		:!make run<CR>
 nnoremap <F7>		:make! debug<CR>
 nnoremap <LEADER>h	:nohlsearch<CR>
-nnoremap <LEADER>3	:FufFile **/<CR>
+nnoremap <LEADER>3	:FufFile<CR>
 nnoremap <LEADER>4	:FufBuffer<CR>
 nnoremap <LEADER>j	:YcmCompleter GoToDefinition<CR>
 nnoremap <LEADER>k	:YcmCompleter GoToDeclaration<CR>
