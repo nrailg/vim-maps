@@ -6,8 +6,6 @@
 "
 " Junyu Wu, shibuyanorailgun@gmail.com, 2014.
 
-abbreviate gg		=
-
 let g:mapleader = "m"
 
 nnoremap <C-F>		:
@@ -17,11 +15,11 @@ nnoremap <F5>		:wa<CR>:make!<CR>
 nnoremap <F6>		:!make run<CR>
 nnoremap <F7>		:make! debug<CR>
 nnoremap <LEADER>h	:nohlsearch<CR>
-nnoremap <LEADER>3	:FufFile<CR>
-nnoremap <LEADER>4	:FufBuffer<CR>
 nnoremap <LEADER>j	:YcmCompleter GoToDefinition<CR>
 nnoremap <LEADER>k	:YcmCompleter GoToDeclaration<CR>
-nnoremap t		m
+nnoremap <LEADER>3	:CtrlP .<CR>
+nnoremap <LEADER>4	:CtrlPBuffer<CR>
+nnoremap t		    m
 
 inoremap <C-F>		<C-X><C-F>
 inoremap <C-K>		_
