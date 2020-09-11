@@ -11,6 +11,7 @@ let g:mapleader = "m"
 nmap <F1>			:echo<CR>
 imap <F1>			<C-o>:echo<CR>
 nnoremap <C-F>		:
+nnoremap <F1>		<nop>
 nnoremap <F2>		:NERDTreeToggle<CR>
 nnoremap <F3>		:TagbarToggle<CR>
 nnoremap <F5>		:wa<CR>:make!<CR>
