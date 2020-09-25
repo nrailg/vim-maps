@@ -1,9 +1,4 @@
 " Vim frequently used abbreviations & maps.
-" Alright. I think the 3 most important maps are:
-"  1. nnoremap <C-F> :
-"  2. let g:mapleader = "m"
-"  3. inoremap <C-K> _
-"
 " Junyu Wu, shibuyanorailgun@gmail.com, 2014.
 
 let g:mapleader = "m"
