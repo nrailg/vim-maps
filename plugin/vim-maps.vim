@@ -21,8 +21,5 @@ nnoremap t		    m
 
 inoremap <C-F>		<C-X><C-F>
 inoremap <C-K>		_
-inoremap <C-L><C-J>	(
-inoremap <C-L><C-K>	)
-inoremap <C-L><C-N>	[
-inoremap <C-L><C-M>	]
+inoremap <C-L>		->
 inoremap <C-U>		<Esc>gUiw`]a
